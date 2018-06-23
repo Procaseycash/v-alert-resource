@@ -17,7 +17,7 @@
         },
         created() {
             /* eslint-disable no-console */
-            console.log(this.$vAlertTimeout);
+            console.log(this.$vAlertTimeout = 100000);
             this.$vAlertService.error("Default", {error: 'Hello World'});
         }
     }
