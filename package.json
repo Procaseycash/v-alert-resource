@@ -1,6 +1,6 @@
 {
   "name": "v-alert-resource",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "private": false,
   "main": "./dist/v-alert-resource.common.js",
   "scripts": {
@@ -52,11 +52,24 @@
     "clear",
     "Alert",
     "Vue",
-    "Resource"
+    "Resource",
+    "popup"
   ],
   "files": [
     "dist/*",
     "*.json",
     "*.me"
-  ]
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Procaseycash/v-alert-resource.git"
+  },
+  "author": "Kazeem Olanipekun <kezyolanipekun@gmail.com>",
+  "contributors": [
+    "Kazeem Olanipekun <kezyolanipekun@gmail.com>"
+  ],
+  "bugs": {
+    "url": "https://github.com/Procaseycash/v-alert-resource/issues"
+  },
+  "homepage": "https://github.com/Procaseycash/v-alert-resource#README"
 }
